@@ -1,7 +1,7 @@
 import ShelfCurrentLoans from "../../../models/ShelfCurrentLoans";
 import React from "react";
 
-export const LoansModal: React.FC<{shelfCurrentLoan: ShelfCurrentLoans, mobile: boolean}> = ({shelfCurrentLoan, mobile}) => {
+export const LoansModal: React.FC<{shelfCurrentLoan: ShelfCurrentLoans, mobile: boolean, returnBook: Function, renewLoan: Function}> = ({shelfCurrentLoan, mobile, returnBook, renewLoan}) => {
     return(
         <div className='modal fade' id={mobile ? `mobilemodal${shelfCurrentLoan.book.id}` :
             `modal${shelfCurrentLoan.book.id}`} data-bs-backdrop='static' data-bs-keyboard='false'
@@ -51,7 +51,7 @@ export const LoansModal: React.FC<{shelfCurrentLoan: ShelfCurrentLoans, mobile: 
                                 }
                                 <div className='list-group mt-3'>
                                     <button data-bs-dismiss='modal' className='list-group-item list-group-item-action'
-                                            aria-current='true'>
+                                            aria-current='true' onClick={() => returnBook(shelfCurrentLoan.book.id)}>
                                         Return Book
                                     </button>
                                     <button data-bs-dismiss='modal'
@@ -59,7 +59,7 @@ export const LoansModal: React.FC<{shelfCurrentLoan: ShelfCurrentLoans, mobile: 
                                                 shelfCurrentLoan.daysLeft < 0 ?
                                                     'list-group-item list-group-item-action inactiveLink' :
                                                     'list-group-item list-group-item-action'
-                                            }>
+                                            } onClick={shelfCurrentLoan.daysLeft < 0 ? (event) => event.preventDefault() : () => renewLoan(shelfCurrentLoan.book.id)}>
                                         {shelfCurrentLoan.daysLeft < 0 ?
                                             'Late dues cannot be renewed' : 'Renew loan for 7 days'
                                         }
