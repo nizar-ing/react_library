@@ -69,7 +69,7 @@ export const Loans = () => {
                                                  width='226' height='349' alt='Book'/>
                                         }
                                     </div>
-                                    <div className='card col-3 col-md-3 container d-flex'>
+                                    <div className='card col-4 col-md-4 container d-flex'>
                                         <div className='card-body'>
                                             <div className='mt-3'>
                                                 <h4>Loan Options</h4>
