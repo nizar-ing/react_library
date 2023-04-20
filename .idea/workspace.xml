@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our Loans component -- business logic first part --">
+      <change beforePath="$PROJECT_DIR$/src/layouts/shelfPage/components/Loans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/shelfPage/components/Loans.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NcCA3JaOV9aFClRgCYr4mNYd38" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="H:\my-folders\React_Projects\library-app\react-library\node_modules\typescript\lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="" />
+      <created>1679953836910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679953836910</updated>
+      <workItem from="1679953838571" duration="1272000" />
+      <workItem from="1680048231417" duration="5067000" />
+      <workItem from="1680088753235" duration="10765000" />
+      <workItem from="1680269107665" duration="11724000" />
+      <workItem from="1680310198213" duration="3768000" />
+      <workItem from="1680346008199" duration="23510000" />
+      <workItem from="1680440455187" duration="3601000" />
+      <workItem from="1681040782002" duration="719000" />
+      <workItem from="1681837955221" duration="1250000" />
+      <workItem from="1681996376059" duration="1271000" />
+      <workItem from="1682001168102" duration="6992000" />
+    </task>
+    <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
+      <created>1682006439974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682006439974</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creating our Loans component -- business logic first part --">
+      <created>1682008486099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682008486099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit. I already have performed bunches of stuffs regarding this app" />
+    <MESSAGE value="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature" />
+    <MESSAGE value="Creating our Loans component -- business logic first part --" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
