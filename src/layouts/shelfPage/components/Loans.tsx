@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import {useOktaAuth} from "@okta/okta-react";
 import {useEffect, useState} from "react";
 import ShelfCurrentLoans from "../../../models/ShelfCurrentLoans";
@@ -6,7 +6,7 @@ import {SpinnerLoading} from "../../utils/SpinnerLoading";
 
 
 export const Loans = () => {
-    const { authState } = useOktaAuth();
+    const {authState} = useOktaAuth();
     const [httpError, setHttpError] = useState(null);
 
     // Current Loans
@@ -15,8 +15,8 @@ export const Loans = () => {
 
     useEffect(() => {
         const fetchUserCurrentLoans = async () => {
-            if(authState && authState.isAuthenticated){
-                const url = `http://localhost:8080/api/books/secure/currentLoans`;
+            if (authState && authState.isAuthenticated) {
+                const url = `http://localhost:8080/api/books/secure/currentloans`;
                 const requestOptions = {
                     method: 'GET',
                     headers: {
@@ -25,15 +25,15 @@ export const Loans = () => {
                     }
                 };
                 const shelfCurrentLoansResponse = await fetch(url, requestOptions);
-                if(!shelfCurrentLoansResponse.ok) throw new Error('Something went wrong');
+                if (!shelfCurrentLoansResponse.ok) throw new Error('Something went wrong!');
                 const shelfCurrentLoansResponseJson = await shelfCurrentLoansResponse.json();
                 setShelfCurrentLoans(shelfCurrentLoansResponseJson);
             }
             setIsLoadingUserLoans(false);
         };
         fetchUserCurrentLoans().catch((error) => {
-           setIsLoadingUserLoans(false);
-           setHttpError(error.message);
+            setIsLoadingUserLoans(false);
+            setHttpError(error.message);
         });
         window.scrollTo(0, 0);
     }, [authState]);
