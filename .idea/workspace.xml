@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our post question component">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Adding the post question functionality">
+      <change afterPath="$PROJECT_DIR$/src/layouts/messagesPage/components/Messages.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/messagesPage/components/PostNewMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/messagesPage/components/PostNewMessage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/messagesPage/MessagesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/messagesPage/MessagesPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1681996376059" duration="1271000" />
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
-      <workItem from="1682168205420" duration="7344000" />
+      <workItem from="1682168205420" duration="9960000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682178711204</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding the post question functionality">
+      <created>1682180328766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682180328766</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="Creating our messages page Component" />
     <MESSAGE value="Creating our Message Model to retrieve response from our backend endpoint" />
     <MESSAGE value="Creating our post question component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating our post question component" />
+    <MESSAGE value="Adding the post question functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the post question functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
