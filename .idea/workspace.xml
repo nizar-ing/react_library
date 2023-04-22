@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Finishing performing our Messages component">
-      <change beforePath="$PROJECT_DIR$/src/layouts/homePage/components/LibraryServices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/homePage/components/LibraryServices.tsx" afterDir="false" />
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Adding link to our library services">
+      <change afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/ManageLibraryPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <workItem from="1681996376059" duration="1271000" />
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
-      <workItem from="1682168205420" duration="10111000" />
+      <workItem from="1682168205420" duration="11038000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682183098694</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding link to our library services">
+      <created>1682183252481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682183252481</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +214,8 @@
     <MESSAGE value="Creating our post question component" />
     <MESSAGE value="Adding the post question functionality" />
     <MESSAGE value="Finishing performing our Messages component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing performing our Messages component" />
+    <MESSAGE value="Adding link to our library services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding link to our library services" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
