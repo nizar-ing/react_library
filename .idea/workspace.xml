@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our History page">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="implementing History useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/shelfPage/components/HistoryPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/shelfPage/components/HistoryPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/shelfPage/ShelfPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/shelfPage/ShelfPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <workItem from="1681837955221" duration="1250000" />
       <workItem from="1681996376059" duration="1271000" />
       <workItem from="1682001168102" duration="19029000" />
-      <workItem from="1682101461086" duration="4930000" />
+      <workItem from="1682101461086" duration="5732000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682119974783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implementing History useEffect">
+      <created>1682120512463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682120512463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +157,8 @@
     <MESSAGE value="Performing the return book and the renew loan features into our frontend react app" />
     <MESSAGE value="Creating our History model" />
     <MESSAGE value="Creating our History page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating our History page" />
+    <MESSAGE value="implementing History useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing History useEffect" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
