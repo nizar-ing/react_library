@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="fixing the bug by creating a Shelf state within our ShelfPage component">
-      <change afterPath="$PROJECT_DIR$/src/layouts/messagesPage/MessagesPage.tsx" afterDir="false" />
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our messages page Component">
+      <change afterPath="$PROJECT_DIR$/src/models/MessageModel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1681996376059" duration="1271000" />
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
-      <workItem from="1682168205420" duration="2976000" />
+      <workItem from="1682168205420" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682121679163</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creating our messages page Component">
+      <created>1682176101675</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682176101675</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +174,8 @@
     <MESSAGE value="Creating our History page" />
     <MESSAGE value="implementing History useEffect" />
     <MESSAGE value="fixing the bug by creating a Shelf state within our ShelfPage component" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing the bug by creating a Shelf state within our ShelfPage component" />
+    <MESSAGE value="Creating our messages page Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating our messages page Component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
