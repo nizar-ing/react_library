@@ -4,6 +4,7 @@ import MessageModel from "../../../models/MessageModel";
 import {SpinnerLoading} from "../../utils/SpinnerLoading";
 import {Pagination} from "../../utils/Pagination";
 import {AdminMessage} from "./AdminMessage";
+import AdminMessageRequest from "../../../models/AdminMessageRequest";
 
 export const AdminMessages = () => {
     const { authState } = useOktaAuth();
@@ -19,6 +20,9 @@ export const AdminMessages = () => {
     // Pagination
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(0);
+
+    // recall our useEffect callback
+    const [btnSubmit, setBtnSubmit] = useState(false);
 
     useEffect(() => {
         const fetchUserMessages = async () => {
@@ -47,7 +51,7 @@ export const AdminMessages = () => {
             setHttpError(error.message);
         })
         window.scrollTo(0, 0);
-    }, [authState, currentPage]);
+    }, [authState, currentPage, btnSubmit]);
 
     if (isLoadingMessages) {
         return (
@@ -61,6 +65,25 @@ export const AdminMessages = () => {
                 <p>{httpError}</p>
             </div>
         );
+    }
+
+    const submitResponseToQuestion = async (id: number, response: string) => {
+        const url = `http://localhost:8080/api/messages/secure/admin/message`;
+        if(authState && authState.isAuthenticated && id !== null && response !== null){
+            const adminMessageRequestModel: AdminMessageRequest = new AdminMessageRequest(id, response);
+            const requestOptions = {
+                method: 'PUT',
+                headers: {
+                    Authorization: `Bearer ${authState.accessToken?.accessToken}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(adminMessageRequestModel)
+            }
+            const adminMessageRequestModelResponse = await fetch(url, requestOptions);
+            if(!adminMessageRequestModelResponse.ok) throw new Error('Something went wrong!');
+            setBtnSubmit(!btnSubmit);
+        }
+
     }
 
     const paginate = (pageNumber: number) => setCurrentPage(pageNumber);

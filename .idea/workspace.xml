@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our Admin Message Component">
-      <change afterPath="$PROJECT_DIR$/src/models/AdminMessageRequest.ts" afterDir="false" />
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Creating our Admin message request model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessages.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
       <workItem from="1682168205420" duration="15789000" />
-      <workItem from="1682256677337" duration="4484000" />
+      <workItem from="1682256677337" duration="5458000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682261763834</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Creating our Admin message request model">
+      <created>1682264549494</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682264549494</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +262,8 @@
     <MESSAGE value="Performing state for our Manage library" />
     <MESSAGE value="Redirect implementation for non Admin" />
     <MESSAGE value="Creating our Admin Message Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating our Admin Message Component" />
+    <MESSAGE value="Creating our Admin message request model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating our Admin message request model" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
