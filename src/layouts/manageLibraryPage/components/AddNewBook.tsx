@@ -34,7 +34,7 @@ export const AddNewBook = () => {
             setSelectedImage(reader.result);
         };
         reader.onerror = (error) => {
-          console.error('Error', error);
+          console.log('Error', error);
         };
     };
 
