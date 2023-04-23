@@ -19,6 +19,24 @@ export const AddNewBook = () => {
     const categoryField = (value: string) => {
         setCategory(value);
     }
+
+    const base64ConversionForImages = async (e: any) => {
+        if(e.target.files[0]){
+            // call a specific function to get an image as a blob
+            getBase64(e.target.files[0]);
+        }
+    }
+    const getBase64 = (file: any) => {
+        let reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+            setSelectedImage(reader.result);
+        };
+        reader.onerror = (error) => {
+          console.error('Error', error);
+        };
+    };
+
     return(
         <div className='container mt-5 mb-5'>
             {displaySuccess &&
@@ -72,7 +90,7 @@ export const AddNewBook = () => {
                             <input type='number' className='form-control' name='Copies' required
                                    onChange={e => setCopies(Number(e.target.value))} value={copies}/>
                         </div>
-                        <input type='file' />
+                        <input type='file' onChange={(e) => base64ConversionForImages(e)} />
                         <div>
                             <button type='button' className='btn btn-primary mt-3'>
                                 Add Book
