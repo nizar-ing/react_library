@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Submitting our new book">
-      <change afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" afterDir="false" />
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Changing quantity of books Component">
+      <change afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBook.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/ManageLibraryPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/ManageLibraryPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AddNewBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AddNewBook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/AddBookRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/AddBookRequest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
       <workItem from="1682168205420" duration="15789000" />
-      <workItem from="1682256677337" duration="16174000" />
+      <workItem from="1682256677337" duration="17277000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682284262674</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Changing quantity of books Component">
+      <created>1682288438502</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1682288438502</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +293,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating our Loans component -- business logic first part --" />
     <MESSAGE value="finishing creating our Loan component" />
     <MESSAGE value="Creating the LoansModal component and its rendering" />
     <MESSAGE value="Performing the return book and the renew loan features into our frontend react app" />
@@ -313,7 +317,8 @@
     <MESSAGE value="Adding Book Component with states and rendering" />
     <MESSAGE value="save an image to our piece of state" />
     <MESSAGE value="Submitting our new book" />
-    <option name="LAST_COMMIT_MESSAGE" value="Submitting our new book" />
+    <MESSAGE value="Changing quantity of books Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing quantity of books Component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
