@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Performing state for our Manage library">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Redirect implementation for non Admin">
+      <change afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessages.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/ManageLibraryPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/ManageLibraryPage.tsx" afterDir="false" />
     </list>
@@ -62,7 +64,8 @@
       <workItem from="1681996376059" duration="1271000" />
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
-      <workItem from="1682168205420" duration="13697000" />
+      <workItem from="1682168205420" duration="15789000" />
+      <workItem from="1682256677337" duration="3476000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682194425193</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Redirect implementation for non Admin">
+      <created>1682195248149</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195248149</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +248,8 @@
     <MESSAGE value="Adding link to our library services" />
     <MESSAGE value="Creating our Manage Library page" />
     <MESSAGE value="Performing state for our Manage library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Performing state for our Manage library" />
+    <MESSAGE value="Redirect implementation for non Admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirect implementation for non Admin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
