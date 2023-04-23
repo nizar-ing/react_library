@@ -1,9 +1,19 @@
 import React, {useState} from "react";
 import MessageModel from "../../../models/MessageModel";
 
-export const AdminMessage: React.FC<{message: MessageModel}> = ({message}) => {
+export const AdminMessage: React.FC<{message: MessageModel, submitResponseToQuestion: Function}> = ({message, submitResponseToQuestion}) => {
     const [displayWarning, setDisplayWarning] = useState(false);
     const [response, setResponse] = useState('');
+
+    const handleSubmitBtn = () => {
+        if(message.id !== null && response !== ''){
+            submitResponseToQuestion(message.id, response);
+            setDisplayWarning(false);
+        } else {
+            setDisplayWarning(true);
+        }
+    };
+
     return (
         <div key={message.id}>
             <div className='card mt-2 shadow p-3 bg-body rounded'>
@@ -25,7 +35,7 @@ export const AdminMessage: React.FC<{message: MessageModel}> = ({message}) => {
                                       onChange={e => setResponse(e.target.value)} value={response} />
                         </div>
                         <div>
-                            <button type='button' className='btn btn-primary mt-3'>
+                            <button type='button' className='btn btn-primary mt-3' onClick={handleSubmitBtn}>
                                 Submit Response
                             </button>
                         </div>
