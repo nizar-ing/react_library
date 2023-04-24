@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Adding the decrease functionality">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Implementation of delete functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <workItem from="1682001168102" duration="19029000" />
       <workItem from="1682101461086" duration="6722000" />
       <workItem from="1682168205420" duration="15789000" />
-      <workItem from="1682256677337" duration="20696000" />
+      <workItem from="1682256677337" duration="21106000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -291,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682295203240</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Implementation of delete functionality">
+      <created>1682296342801</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682296342801</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating our History page" />
     <MESSAGE value="implementing History useEffect" />
     <MESSAGE value="fixing the bug by creating a Shelf state within our ShelfPage component" />
     <MESSAGE value="Creating our messages page Component" />
@@ -346,7 +351,8 @@
     <MESSAGE value="Adding increase functionality" />
     <MESSAGE value="Adding increase functionality. solving issue" />
     <MESSAGE value="Adding the decrease functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the decrease functionality" />
+    <MESSAGE value="Implementation of delete functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of delete functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
