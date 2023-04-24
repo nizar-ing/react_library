@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import BookModel from "../../../models/BookModel";
 import {useOktaAuth} from "@okta/okta-react";
 
-export const ChangeQuantityOfBook: React.FC<{book: BookModel}> = ({book}) => {
+export const ChangeQuantityOfBook: React.FC<{book: BookModel, deleteBook: Function}> = ({book, deleteBook}) => {
 
     const { authState } = useOktaAuth();
     const [quantity, setQuantity] = useState<number>(0);
@@ -48,6 +48,20 @@ export const ChangeQuantityOfBook: React.FC<{book: BookModel}> = ({book}) => {
         setRemaining(remaining - 1);
     };
 
+    const handleDeleteBook = async () => {
+        const url = `http://localhost:8080/api/admin/secure/delete/book?book_id=${book.id}`;
+        const requestOptions = {
+            method: 'DELETE',
+            headers: {
+                Authorization: `Bearer ${authState?.accessToken?.accessToken}`,
+                'Content-Type': 'application/json'
+            }
+        };
+        const updateResponse = await fetch(url, requestOptions);
+        if(!updateResponse.ok) throw new Error('Something went wrong!');
+        deleteBook();
+    }
+
     return(
         <div className='card mt-3 shadow p-3 mb-3 bg-body rounded'>
             <div className='row g-0'>
@@ -86,7 +100,7 @@ export const ChangeQuantityOfBook: React.FC<{book: BookModel}> = ({book}) => {
                 </div>
                 <div className='mt-3 col-md-1'>
                     <div className='d-flex justify-content-start'>
-                        <button className='m-1 btn btn-md btn-danger'>Delete</button>
+                        <button className='m-1 btn btn-md btn-danger' onClick={handleDeleteBook}>Delete</button>
                     </div>
                 </div>
                 <button className='m1 btn btn-md main-color text-white' onClick={increaseQuantity}>Add Quantity</button>
