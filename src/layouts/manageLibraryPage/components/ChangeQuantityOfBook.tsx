@@ -16,8 +16,8 @@ export const ChangeQuantityOfBook: React.FC<{book: BookModel}> = ({book}) => {
         fetchBookInState();
     }, []);
 
-    const inreaseQuantity = async () => {
-        const url = `http://localhost:8080/api/admin/secure/increase/book/quantity?book_id=${book.id}`;
+    const increaseQuantity = async () => {
+        const url = `http://localhost:8080/api/admin/secure/increase/book/quantity?bookId=${book.id}`;
         const requestOptions = {
             method: 'PUT',
             headers: {
@@ -73,7 +73,7 @@ export const ChangeQuantityOfBook: React.FC<{book: BookModel}> = ({book}) => {
                         <button className='m-1 btn btn-md btn-danger'>Delete</button>
                     </div>
                 </div>
-                <button className='m1 btn btn-md main-color text-white'>Add Quantity</button>
+                <button className='m1 btn btn-md main-color text-white' onClick={increaseQuantity}>Add Quantity</button>
                 <button className='m1 btn btn-md btn-warning'>Decrease Quantity</button>
             </div>
         </div>

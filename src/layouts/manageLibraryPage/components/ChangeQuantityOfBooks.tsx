@@ -86,7 +86,7 @@ export const ChangeQuantityOfBooks = () => {
                         {indexOfFirstBook + 1} to {lastItem} of {totalAmountOfBooks} items:
                     </p>
                     {books.map(book => (
-                        <ChangeQuantityOfBook book={book} />
+                        <ChangeQuantityOfBook key={book.id} book={book} />
                     ))}
                 </>
                 :
