@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Updating our Okta Redirect Uri in our React app">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Adding a Brand link">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/bookCheckoutPage/BookCheckoutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/bookCheckoutPage/BookCheckoutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/bookCheckoutPage/reviewListPage/ReviewListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/bookCheckoutPage/reviewListPage/ReviewListPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/homePage/components/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/homePage/components/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AddNewBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AddNewBook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/AdminMessages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/manageLibraryPage/components/ChangeQuantityOfBooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/messagesPage/components/Messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/messagesPage/components/Messages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/messagesPage/components/PostNewMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/messagesPage/components/PostNewMessage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/searchBooksPage/SearchBooksPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/searchBooksPage/SearchBooksPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/shelfPage/components/HistoryPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/shelfPage/components/HistoryPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/shelfPage/components/Loans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/shelfPage/components/Loans.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +81,7 @@
       <workItem from="1682339824436" duration="1988000" />
       <workItem from="1682373952590" duration="2611000" />
       <workItem from="1682377892758" duration="1103000" />
-      <workItem from="1682530699854" duration="2580000" />
+      <workItem from="1682530699854" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -337,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682375570173</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Adding a Brand link">
+      <created>1682543277882</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682543277882</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating our Message Model to retrieve response from our backend endpoint" />
     <MESSAGE value="Creating our post question component" />
     <MESSAGE value="Adding the post question functionality" />
     <MESSAGE value="Finishing performing our Messages component" />
@@ -392,7 +410,8 @@
     <MESSAGE value="Enhancing navigation bar for admin" />
     <MESSAGE value="Adding openssl to add more security stuffs by using https protocol instead of http" />
     <MESSAGE value="Updating our Okta Redirect Uri in our React app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating our Okta Redirect Uri in our React app" />
+    <MESSAGE value="Adding a Brand link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a Brand link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
