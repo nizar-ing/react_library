@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Adding openssl to add more security stuffs by using https protocol instead of http">
+    <list default="true" id="ec234bae-89e7-4e74-9755-babd76bbfb7d" name="Changes" comment="Updating our Okta Redirect Uri in our React app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/oktaConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/oktaConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/navbarAndFooter/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,9 @@
       <workItem from="1682256677337" duration="21636000" />
       <workItem from="1682332118385" duration="874000" />
       <workItem from="1682339824436" duration="1988000" />
-      <workItem from="1682373952590" duration="1293000" />
+      <workItem from="1682373952590" duration="2611000" />
+      <workItem from="1682377892758" duration="1103000" />
+      <workItem from="1682530699854" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Creating the Shelf Current Loans model to receive our backend response for this feature">
       <created>1682006439974</created>
@@ -321,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682374572073</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Updating our Okta Redirect Uri in our React app">
+      <created>1682375541598</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682375541598</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Updating our Okta Redirect Uri in our React app">
+      <created>1682375570173</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682375570173</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +367,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating our messages page Component" />
     <MESSAGE value="Creating our Message Model to retrieve response from our backend endpoint" />
     <MESSAGE value="Creating our post question component" />
     <MESSAGE value="Adding the post question functionality" />
@@ -376,7 +391,8 @@
     <MESSAGE value="Implementation of delete functionality" />
     <MESSAGE value="Enhancing navigation bar for admin" />
     <MESSAGE value="Adding openssl to add more security stuffs by using https protocol instead of http" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding openssl to add more security stuffs by using https protocol instead of http" />
+    <MESSAGE value="Updating our Okta Redirect Uri in our React app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating our Okta Redirect Uri in our React app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

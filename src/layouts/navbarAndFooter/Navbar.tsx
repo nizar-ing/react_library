@@ -14,7 +14,7 @@ export const Navbar = () => {
     return (
         <div className="navbar navbar-expand-lg navbar-dark main-color py-3">
             <div className="container-fluid">
-                <span className="navbar-brand">NizaRead</span>
+                <NavLink className="navbar-brand" to="/home">NizaRead</NavLink>
                 <button
                     type="button"
                     className="navbar-toggler"
